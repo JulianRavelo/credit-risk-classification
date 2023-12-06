@@ -2,13 +2,9 @@
 
 ## Overview of the Analysis
 
-This repository contains historical data of a lending servoces company. Using this data, the credit_risk_classification.ipynb notebook, has an analysis that intents to identify the creditworthiness of borrowers.  
-
-The dataset has 77,537 rows of information, including: loan size, interest rate, borrower income, total debt, loan status, among others.  
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-
-The method used was logistic regression and the results are detailed below.  
+This repository contains historical data of a lending services company. Using this data, the credit_risk_classification.ipynb notebook has an analysis that intends to identify the creditworthiness of borrowers.  
+The dataset has 77,537 rows of information, including loan size, interest rate, borrower income, total debt, and loan status, among others.  
+Using the "loan status" column and a logistic regression model, we split the data into training and test datasets. Using the Sklearn library for Python, we were able to make predictions on the testing data and evaluate the model performance generating a confusion matrix and printing the classification report.  
 
 ## Results
 
